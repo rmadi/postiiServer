@@ -15,7 +15,6 @@ router.use("/api/propo", proposition)
 router.use("/api/conversation",conversation)
 router.use("/api/user", user)
 router.use("/api/review/", Review);
-// router.use('api/message',message)
 
 export default router;
 
