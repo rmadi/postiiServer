@@ -15,7 +15,7 @@ const router = express.Router();
 router.post("/:id", createOffre);
 router.delete("/:id", deleteOffre);
 router.put("/:id",  updateOffre);
-router.get("/single/:id", isEnterprise, singleOffre);
+router.get("/single/:id",  singleOffre);
 router.get("/",  allOffre);
 router.get("/myoffre/:id",  myOffres)
 

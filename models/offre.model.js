@@ -43,6 +43,9 @@ const newOffre = new Schema({
     enterpriseId: String,
     desc: String
 }], 
+user: {
+  type :Object
+}
 
     }
 , {timestamps:true}
